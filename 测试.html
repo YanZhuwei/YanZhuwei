@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>。</title>
+    <style>
+     img{
+         width: 90px;
+     }
+     body{
+         background-image: url(3.jpg);
+         background-repeat:no-repeat;
+         background-size: 100%;
+         background-attachment: fixed;
+     }
+     ul,li{
+         display: inline;
+     }
+     .list1{
+         display: block;
+         position: relative;
+     }
+     .list1{
+         display: none;
+     }
+     #XL{
+         display: inline;
+
+     }
+     span{
+         color: rgb(90, 90, 90);
+     }
+     #XL:hover .list1{
+         display: block;
+     }
+     #list3{
+        border: solid transparent 1px;
+         border-radius: 5px;
+         background-color: white;
+         width: max-content+10px;
+         position: absolute;
+         margin-left: 16%;
+     }
+     form{
+         text-align: center;
+         margin-top: 10%;
+     }
+     #submit{
+         margin-top: 10px;
+         border-radius: 5px;
+     }
+     #search{
+        width: 450px;height: 25px;
+        border-radius: 10px;
+        transition: 0.4s ease-in-out;
+     }
+     #search{
+         outline: none;
+     }
+     a{
+         color: rgb(90, 90, 90);
+         text-decoration: none;
+     }
+     #search:focus{
+         width: 600px;
+     }
+
+    </style>
+</head>
+<body>
+    <img src="1.jfif" alt="图标">
+    <ul>
+        <li><a href="w">picture</a></li>
+        <li><a href="w">video</a></li>
+        <li>
+            <div id="XL">
+                <span>more</span>
+                <div id="list3">
+                    <a href="w" class="list1">news</a>
+                    <a href="w" class="list1">map</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    
+    <form action="">
+        <input type="text" id="search" ><br>
+        <input type="submit" value="search" id="submit">
+    </form>
+</body>
+</html>
